@@ -237,25 +237,116 @@ section.hobbies{
     margin-bottom: 8px;
 }
 
-/*? Experiência Acadêmica*/
-
+/*! --- Experiência Acadêmica --- */
 section.academic{
-
+    padding: 64px 0;
+    background-color: var(--cor-de-fundo-destaque);
 }
 
-/* experiência*/
+.academic__title {
+    text-align: center;
 
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: center;
+
+    padding: 0 150px;
+}
+
+.academic__courses__box {
+    width: 26.5rem;
+    margin: 0 1rem;
+}
+
+.academic__courses__list {
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+}
+
+.academic__courses__list li {
+    padding: 0;
+    margin: 32px 0;
+}
+
+.academic__courses__item__img {
+    background-color: var(--cor-das-caixas);
+/*     padding: 8%;
+ */
+}
+
+.academic__courses__item__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.academic__courses__item__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*! --- experiência --- */
 section.experience{
+    display: flex;
+    flex-direction: column;
 
+    margin: 16px 0;
+    padding: 0 150px;
 }
 
-/*Contato*/
+.experience__section__title {
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.experiencie__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 25px 0;
+}
+
+.experiencie__box:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.experience__img {
+    width: 600px;
+    height: 600px;
+    border: 1px solid red;
+}
+
+.experience__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.experience__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*! --- Contato --- */
 
 section.formcontato{
-
+    
 }
 
-/*footeer*/
+/*! --- footeer --- */
 
 section.footer{
    
