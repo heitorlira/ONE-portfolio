@@ -122,17 +122,40 @@ section.title{
     font-weight: 500;
 }
 /* FIM --- Título */
+
 /* --- Sessão About --- */
 section.about{
-
+    background-color: var(--cor-de-fundo-destaque);
+    padding: 62px 150px;
 }
 
-/*Sessão Hobbies*/
+.about__container {
+    width: 800px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.about__paragraph {
+    line-height: 19px;
+}
+/* FIM --- About */
+
+/* --- Sessão Skills --- */
+section.skills {
+    
+}
+/* FIM --- Skills */
+
+/* --- Sessão Hobbies --- */
 
 section.hobbies{
     
 }
-/* FIM --- About */
+
 /* Experiência Acadêmica*/
 
 section.academic{
