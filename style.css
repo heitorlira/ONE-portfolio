@@ -10,6 +10,7 @@ coloque nas sessões indicadas*/
 
    --cor-de-texto-geral: #464646;
    --cor-de-fundo-destaque: #EAF2FD;
+   --cor-das-caixas: #FFFFFF;
 }
 
 body {
@@ -43,7 +44,7 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-/* --- Sessão Menu --- */
+/*! --- Sessão Menu --- */
 section.menu{
     display: flex;
     justify-content: space-between;
@@ -80,7 +81,7 @@ section header img {
 }
 /* FIM --- Cabeçalho */
 
-/* --- Sessão Title --- */
+/*! --- Sessão Title --- */
 section.title{
     margin: 32px 0;
 }
@@ -107,6 +108,7 @@ section.title{
 }
 
 .title__subsection {
+    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
 }
@@ -123,7 +125,7 @@ section.title{
 }
 /* FIM --- Título */
 
-/* --- Sessão About --- */
+/*! --- Sessão About --- */
 section.about{
     background-color: var(--cor-de-fundo-destaque);
     padding: 62px 150px;
@@ -140,23 +142,102 @@ section.about{
 }
 
 .about__paragraph {
+    font-weight: 400;
     line-height: 19px;
 }
 /* FIM --- About */
 
-/* --- Sessão Skills --- */
+/*! --- Sessão Skills --- */
 section.skills {
-    
+    padding: 0 150px;
+}
+
+.skills__title {
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 16px;
+    margin: 20px 0;
+
+    width: 100px;
+    height: 110px;
+
+    background-color: var(--cor-das-caixas);
+    border-radius: 20px;
+
+    font-weight: 700;
+}
+.skills__box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.skills__img {
+    margin-bottom: 8px;
 }
 /* FIM --- Skills */
 
-/* --- Sessão Hobbies --- */
-
+/*! --- Sessão Hobbies --- */
 section.hobbies{
-    
+    padding: 0 150px;    
 }
 
-/* Experiência Acadêmica*/
+.hobbies__title {
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hobbies__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 16px;
+    margin: 20px 0;
+
+    width: 100px;
+    height: 110px;
+
+    background-color: var(--cor-das-caixas);
+    border-radius: 20px;
+
+    font-weight: 700;
+}
+
+.hobbies__box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.hobbies__img {
+    margin-bottom: 8px;
+}
+
+/*? Experiência Acadêmica*/
 
 section.academic{
 
