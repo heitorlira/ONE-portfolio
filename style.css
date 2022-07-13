@@ -43,8 +43,7 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-/*Sessão Menu*/
-
+/* --- Sessão Menu --- */
 section.menu{
     display: flex;
     justify-content: space-between;
@@ -59,7 +58,7 @@ section header {
     font-weight: 700;
 }
 
-section img {
+section header img {
     margin-right: 16px;
 }
 
@@ -79,15 +78,51 @@ section img {
     /* Deixando em negrito */
     font-weight: 700;
 }
+/* FIM --- Cabeçalho */
 
-/*Sessão Title*/
-
+/* --- Sessão Title --- */
 section.title{
-
+    margin: 32px 0;
 }
 
-/*Sessão About*/
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
 
+    margin: 0 150px;
+}
+
+.title__container {
+    width: 800px;
+}
+
+.title__bio {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+
+    margin: 0;
+}
+
+.title__subsection {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.title__network {
+    display: flex;
+    justify-content: space-between;
+
+    width: 450px;
+
+    padding: 0;
+
+    font-weight: 500;
+}
+/* FIM --- Título */
+/* --- Sessão About --- */
 section.about{
 
 }
@@ -97,7 +132,7 @@ section.about{
 section.hobbies{
     
 }
-
+/* FIM --- About */
 /* Experiência Acadêmica*/
 
 section.academic{
