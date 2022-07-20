@@ -465,7 +465,7 @@ section.footer{
 utilize como referência os breakpoints @media abaixo*/
 
 /*TODO ---- Tablet ---- */
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
 
 /* Menu */
 section.menu {
