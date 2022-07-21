@@ -137,7 +137,7 @@
 
     .academic__courses__item__img {
         width: 296px;
-        height: 118px;
+        height: 130px;
     }
 
     .academic__courses__list li {
@@ -349,7 +349,7 @@
 
     .academic__courses__item__img {
         width: 224px;
-        height: 118px;
+        height: 130px;
     }
     
     /* --------------------------------->  Experiência profissional */
@@ -534,17 +534,20 @@
         font-weight: 700;
         font-size: 32px;
         line-height: 38px;
+
+        margin-bottom: 16px;
     }
 
     .about__paragraph {
         font-weight: 400;
+        font-size: 16px;
         line-height: 19px;
     }
 
     /* --------------------------------->  Sessão Skills --- */
     section.skills {
         padding: 0 150px;
-        margin: 32px;
+        
     }
 
     .skills__title {
@@ -673,7 +676,7 @@
     .academic__courses__item__img {
         background-color: var(--cor-branco);
         width: 368px;
-        height: 286px;
+        height: 130px;
     }
 
     .academic__courses__item__title {
@@ -723,7 +726,7 @@
     .experience__img {
         width: 752px;
         height: 406px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .experience__info {

@@ -291,7 +291,6 @@ section.academic{
 
 .academic__courses__item__img {
     background-color: var(--cor-branco);
-
 }
 
 .academic__courses__item__title {
@@ -338,7 +337,9 @@ section.experience{
 .experience__img {
     width: 752px;
     height: 406px;
-    border: 1px solid red;
+    /* border: 1px solid red; DEBUG */
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .experience__title {
