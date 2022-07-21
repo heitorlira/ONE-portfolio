@@ -40,7 +40,7 @@
         font-size: 22px;
         line-height: 26px;
     
-        color: blue;
+        /* color: blue; */
     }
     
     .title__subsection {
@@ -277,9 +277,9 @@
         height: 130px;
     }
     
-    .title__bio {
+    /* .title__bio {
         color: red;
-    }
+    } */
     
     .title__subsection {
         font-size: 16px;
@@ -499,7 +499,7 @@
 
         margin: 32px 0;
 
-        color: violet;
+        /* color: violet; */
     }
 
     .title__subsection {

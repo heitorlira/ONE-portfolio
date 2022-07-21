@@ -107,6 +107,8 @@ section.title{
     width: 368px;
     height: 368px;
 
+    border-radius: 50%;
+
     flex-grow: 1;
 }
 
@@ -120,8 +122,6 @@ section.title{
     line-height: 61px;
 
     margin: 0;
-
-    color: violet;
 }
 
 .title__subsection {
