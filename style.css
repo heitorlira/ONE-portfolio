@@ -98,9 +98,16 @@ section.title{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 
     margin: 0 150px;
+}
+
+.title__profile {
+    width: 368px;
+    height: 368px;
+
+    flex-grow: 1;
 }
 
 .title__container {
@@ -284,8 +291,7 @@ section.academic{
 
 .academic__courses__item__img {
     background-color: var(--cor-branco);
-/*     padding: 8%;
- */
+
 }
 
 .academic__courses__item__title {
@@ -318,6 +324,7 @@ section.experience{
 
 .experiencie__box {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
@@ -329,8 +336,8 @@ section.experience{
 }
 
 .experience__img {
-    width: 600px;
-    height: 600px;
+    width: 752px;
+    height: 406px;
     border: 1px solid red;
 }
 
@@ -391,6 +398,10 @@ section.formcontato{
     display: flex;
     justify-content: space-around;
     padding: 50px 150px;
+}
+
+.formcontato--esquerda {
+    display: block;
 }
 
 .formcontato__text {
